@@ -37,14 +37,14 @@ const Navbar = ()=>{
                     
                 </div>
 
-                <div className={`sm:hidden flex px-[0vw] fixed top-0 w-full  z-10 bg-[#fff] shadow-medium  md:hidden flex-row`}>
+                <div className={`sm:hidden flex px-[0vw] fixed top-0 w-full  z-10 bg-[#fff] shadow-medium mx-[0vw]  md:hidden flex-row`}>
             {toggleSidebar ? (
-              <AiFillCloseCircle className="cursor-pointer w-[10vw] h-[13vh] ml-[5vw]" onClick={toggleNav} />
+              <AiFillCloseCircle className="cursor-pointer w-[10vw] h-[13vh] ml-[0vw]" onClick={toggleNav} />
             ) : (
               <HiMenu className="cursor-pointer w-[10vw] h-[13vh] ml-[5vw]" onClick={toggleNav} />
             )}
             <Link href={"/"}>
-              <div className='flex mt-[10vw] ml-[10vw]'>
+              <div className='flex mt-[10vw] ml-[5vw]'>
                 <img src={logo.src} className="h-[5vh]" alt="logo" />
                 <h4 className="font-bold text-[7.6vw]"></h4>
               </div>

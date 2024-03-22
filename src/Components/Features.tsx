@@ -15,14 +15,14 @@ const Features = ()=>{
     return(
         <div className="flex flex-col justify-center lg:grid lg:grid-cols-3 gap-[5vw] m-[5vw] ">
             <div>
-                <h1 className="text-[6vw] text-center lg:text-[2vw] lg:leading-normal lg:text-left font-bold">Features for <br/> communication solution</h1>
-                <p className="text-[3vw] text-center lg:text-[#868591] lg:text-[1.1vw] lg:text-left mt-[0.8vw]">Our robust Features are crafted to enhance <br/>
+                <h1 className="text-[7vw] text-center lg:text-[2vw] lg:leading-normal lg:text-left font-bold">Features for <br/> communication solution</h1>
+                <p className="text-[4vw] text-center lg:text-[#868591] lg:text-[1.1vw] lg:text-left mt-[0.8vw]">Our robust Features are crafted to enhance <br/>
                 collaboration, streamline interaction fostering connections across the globe</p>
             </div>
 
             <CustomButton
         title="See more solution"
-        containerStyles ="bg-[#627EEA] mx-[22vw] rounded-full text-[#fff] text-[2.9vw] h-[5.5vh] w-[45vw] mt-[2vw] mb-[4vw] lg:mb-[0vws] lg:hidden"
+        containerStyles ="bg-[#627EEA] mx-[22vw] rounded-full text-[#fff] text-[4vw] lg:text-[2.9vw] h-[5.5vh] w-[45vw] mt-[2vw] mb-[4vw] lg:mb-[0vws] lg:hidden"
         handleClick={handlescroll} 
         /> 
 

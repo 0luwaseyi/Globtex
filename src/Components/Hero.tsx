@@ -21,7 +21,7 @@ const Hero = ()=>{
       <div className="flex flex-col my-[6vw] justify-center ml-[27vw] space-y-3 space-x-0 lg:space-x-3 lg:ml-[0vw] lg:space-y-0 lg:flex-row lg:justify-center mt-[2vw]">
       <CustomButton
         title="Get Started Today"
-        containerStyles ="bg-[#627EEA] rounded-full text-[#fff] h-[5.5vh] w-[45vw] lg:h-[7vh] lg:w-[15vw]"
+        containerStyles ="bg-[#627EEA] text-[3.2vw] lg:text-[1.1vw] rounded-full text-[#fff] h-[5.5vh] w-[45vw] lg:h-[7vh] lg:w-[15vw]"
         handleClick={handlescroll} 
         />
 

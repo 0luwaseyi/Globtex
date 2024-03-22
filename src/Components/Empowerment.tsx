@@ -27,7 +27,7 @@ const Empowerment = ()=>{
 
            </div>
            <div>
-            <img src ={Carder.src} className="w-[55vw] mx-[4vw] lg:w-[35vw] lg:mx-[0vw]" alt="acard"/>
+            <img src ={Carder.src} className="w-[60vw] mx-[1.5vw] lg:w-[35vw] lg:mx-[0vw]" alt="acard"/>
             </div>
         
         </div>
