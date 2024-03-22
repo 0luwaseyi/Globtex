@@ -1,0 +1,6 @@
+export {default as Navbar} from "./Navbar"
+export {default as Hero} from "./Hero"
+export {default as Features} from "./Features"
+export {default as Forging} from "./Forging"
+export {default as Empowerment} from "./Empowerment"
+export {default as Questions}  from "./Questions"
