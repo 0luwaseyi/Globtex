@@ -26,7 +26,7 @@ const Forging = ()=>{
          
          <CustomButton
      title="Learn more"
-     containerStyles ="mt-[2vw] border border-[#627EEA] hover:bg-[#627EEA] hover:text-[#fff] bg-[#fff] rounded-full text-[#627EEA] w-[42vw] mx-[21vw] h-[6vh] lg:h-[7vh] lg:w-[15vw] lg:mx-[0vw]"
+     containerStyles ="mt-[2vw] lg:mt-[6vw] border border-[#627EEA] hover:bg-[#627EEA] hover:text-[#fff] bg-[#fff] rounded-full text-[#627EEA] w-[42vw] mx-[21vw] h-[6vh] lg:h-[7vh] lg:w-[15vw] lg:mx-[0vw]"
      handleClick={handlescroll} 
      />
       </div>

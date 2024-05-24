@@ -18,7 +18,8 @@ const Navbar = ()=>{
     setToggleSidebar(!toggleSidebar);
   };
     return(
-        <div className="flex flex-row  px-[4vw]  justify-between items-center fixed top-0 w-full  z-10 bg-[#fff]">
+        <div className="flex flex-row px-[0vw]  lg:px-[4vw]  justify-between items-center fixed top-0 w-full  z-10 bg-[#fff]">
+            
             <div className="flex justify-between items-center ml-[5vw]">
             <img className="pt-2" src = {logo.src}/>
             
@@ -37,20 +38,22 @@ const Navbar = ()=>{
                     
                 </div>
 
-                <div className={`sm:hidden flex px-[0vw] fixed top-0 w-full  z-10 bg-[#fff] shadow-medium mx-[0vw]  md:hidden flex-row`}>
+            
+           
+                <div className={`sm:hidden flex h-[8vh] px-[0vw] fixed top-0 w-full  z-10 bg-[#fff] shadow-medium ml-[0vw]  md:hidden flex-row`}>
             {toggleSidebar ? (
-              <AiFillCloseCircle className="cursor-pointer w-[10vw] h-[13vh] ml-[0vw]" onClick={toggleNav} />
+              <AiFillCloseCircle className="cursor-pointer w-[10vw] h-[13vh] mt-[-4vw] ml-[5vw]" onClick={toggleNav} />
             ) : (
-              <HiMenu className="cursor-pointer w-[10vw] h-[13vh] ml-[5vw]" onClick={toggleNav} />
+              <HiMenu className="cursor-pointer w-[10vw] h-[13vh] mt-[-4vw] ml-[5vw]" onClick={toggleNav} />
             )}
             <Link href={"/"}>
-              <div className='flex mt-[10vw] ml-[5vw]'>
+              <div className='flex mt-[6vw] ml-[5vw]'>
                 <img src={logo.src} className="h-[5vh]" alt="logo" />
-                <h4 className="font-bold text-[7.6vw]"></h4>
+        
               </div>
             </Link>
             {toggleSidebar && (
-              <div className='fixed w-[80vw] h-screen p-0 mt-[26.6vw] bg-white z-10 animate-ease-in'>
+              <div className='fixed w-[80vw] h-screen p-0 mt-[18vw] bg-white z-10 animate-ease-in'>
                 <div className='flex flex-col space-y-4 text-center my-[26vw] text-[#10A36C]'>
                   <h1>Features</h1>
                   <h1>Community</h1>

@@ -14,7 +14,7 @@ const Hero = ()=>{
         <div className=" w-[65vw] mb-[2vw] h-[6vh] ml-[18vw] lg:ml-[40vw] lg:mb-[1.2vw] text-[#2CB385] bg-[#f2fdf8] border-[#d1f4e6] lg:w-[18vw] lg:h-[3vw] flex items-center justify-center rounded-full">
             Join over +35k community
         </div>
-        <h1 className="text-center font-medium leading-tight text-[7vw] mb-[2vw] lg:text-[3.8vw] lg:mb-[1.2vw]">Creating Local Connections And <br className="hidden lg:block"/> Building Local Communities</h1>
+        <h1 className="text-center font-bold lg:font-medium leading-tight text-[7.8vw] mb-[2vw] lg:text-[3.8vw] lg:mb-[1.2vw]">Creating Local Connections And <br className="hidden lg:block"/> Building Local Communities</h1>
         <p className="text-center text-[#868591] text-[4vw] text-wrap lg:text-[1.4vw]">We bridge the gap between borders, empowering businesses and <br className = "hidden lg:block"/> individuals to thrive on a global scale</p>
       
 
