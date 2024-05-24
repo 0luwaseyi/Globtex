@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-row">
-                <input type="email" placeholder="Enter Your Email" className="border border-[#868591]-100 p-3 text-sm bg-[#868591]-100 w-[80vw] lg:w-[20vw]  rounded-full"/>
+                <input type="email" placeholder="Enter Your Email" className="border border-[#868591]-100 p-3 text-sm bg-[#868591]-100 w-[80vw] lg:w-[20vw] text-[#000] focus:border-[#627EEA]-500 focus:outline-none focus:ring-2 focus:ring-[#627EEA]-500  rounded-full"/>
                 <CustomButton
                 title="Subscribe"
                  containerStyles ="bg-[#627EEA] text-[3.7vw] lg:text-[1vw] rounded-full text-[#fff] h-[6.5vh] w-[30vw] lg:h-[7vh] lg:w-[10vw] ml-[-30vw] lg:ml-[-6vw]"

@@ -1,5 +1,5 @@
 
-import logo from "@/assets/globus.png"
+import logo from "@/assets/logo.svg"
 import Link from "next/link"
 import { HiMenu } from "react-icons/hi";
 import { AiFillCloseCircle } from "react-icons/ai";
@@ -48,7 +48,7 @@ const Navbar = ()=>{
             )}
             <Link href={"/"}>
               <div className='flex mt-[6vw] ml-[5vw]'>
-                <img src={logo.src} className="h-[5vh]" alt="logo" />
+                <img src={logo.src} className="h-[5vh]" alt="logo"/>
         
               </div>
             </Link>
