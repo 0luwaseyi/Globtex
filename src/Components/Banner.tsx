@@ -8,7 +8,7 @@ const Banner = ()=>{
     }
     return(
         <div className="mx-[4vw] mt-[5vw]">
-            <div className="pl-[5vw] py-[3vw] flex flex-col lg:flex-row space-x-[11vw] justify-center align-items items-center bg-[#627EEA] rounded-xl">
+            <div className="pl-[5vw] py-[10vw] lg:py-[3vw] flex flex-col lg:flex-row space-x-[11vw] justify-center align-items items-center bg-[#627EEA] rounded-xl">
                 <div className="flex flex-col space-y-5">
                     
                     <h1 className="text-[#fff] font-medium text-2xl lg:text-3xl">Connect Globally, <br/>Thrive Locally with GlobNest</h1>
